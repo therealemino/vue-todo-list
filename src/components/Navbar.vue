@@ -12,17 +12,15 @@
         tabindex="0"
         @click="changeDarkMode"
         :class="darkMode ? 'bg-gray-300' : 'bg-navbar-brown'"
-        class="relative inline-block flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline my-auto"
-    >
-        <span
-        aria-hidden="true"
-        :class="darkMode ? 'translate-x-5' : 'translate-x-0'"
-        class="inline-block h-5 w-5 rounded-full bg-white dark:bg-navbar-cream shadow transform transition ease-in-out duration-200 text-gray-300"
-        ></span>
-    </span>
+        class="relative inline-block flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline my-auto">
+
+          <span
+          aria-hidden="true"
+          :class="darkMode ? 'translate-x-5' : 'translate-x-0'"
+          class="inline-block h-5 w-5 rounded-full bg-white dark:bg-navbar-cream shadow transform transition ease-in-out duration-200 text-gray-300"
+          ></span>
+        </span>
     </div>
-
-
 </div>
 
 
